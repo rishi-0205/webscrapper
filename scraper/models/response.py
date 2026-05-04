@@ -58,7 +58,10 @@ class ScrapeResponse:
     url: str
     status_code: int = -1
 
-    # Extracted content
+    # Raw HTML — set by fetcher, read by parser, excluded from storage
+    raw_html: str = ""
+
+    # Parsed content — populated by parser
     title: str = ""
     content: str = ""
     links: list[str] = field(default_factory=list)

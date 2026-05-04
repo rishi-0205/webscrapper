@@ -52,6 +52,10 @@ class ScrapeRequest:
     headers: dict = field(default_factory=dict)
     tags: list[str] = field(default_factory=lambda: CONTENT_TAGS.copy())
 
+    # Optional proxy — e.g. "http://user:pass@proxy-host:8080"
+    # Full proxy rotation system will be added in optimization phase
+    proxy: str = None
+
     def __post_init__(self):
         """
         Runs automatically after __init__.
