@@ -23,7 +23,7 @@ from scraper.models.response import ScrapeResponse
 def make_fetch_response(
     url: str = "https://docs.python.org/3/",
     success: bool = True,
-    raw_html: str = "<html><title>Test</title><body><p>Content here.</p></body></html>",
+    raw_html: str = "<html><title>Test</title><body>" + "<p>Content here.</p>" * 20 + "</body></html>",
     status_code: int = 200,
     used_browser: bool = False,
 ) -> ScrapeResponse:
