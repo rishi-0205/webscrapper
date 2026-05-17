@@ -1,6 +1,4 @@
 """
-tests/test_parser.py
-
 Unit tests for scraper/core/parser.py
 
 Tests cover:

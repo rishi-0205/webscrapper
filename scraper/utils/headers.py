@@ -1,6 +1,4 @@
 """
-utils/headers.py
-
 Generates realistic browser-like HTTP headers for scraper requests.
 Without proper headers, many websites detect and block automated requests.
 

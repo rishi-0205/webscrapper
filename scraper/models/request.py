@@ -1,6 +1,4 @@
 """
-models/request.py
-
 Defines the ScrapeRequest model — the input contract for the scraper.
 Every scrape operation starts with one of these.
 

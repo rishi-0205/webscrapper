@@ -1,6 +1,4 @@
 """
-utils/url.py
-
 URL validation, normalization, and utility functions.
 Every URL passes through here before touching anything else.
 

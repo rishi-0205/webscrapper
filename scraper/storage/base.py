@@ -1,6 +1,4 @@
 """
-storage/base.py
-
 Abstract base class defining the storage interface.
 Every storage implementation must inherit from this and
 implement all abstract methods.

@@ -1,6 +1,4 @@
 """
-tests/test_fetcher.py
-
 Unit tests for scraper/core/fetcher.py
 
 Tests cover:

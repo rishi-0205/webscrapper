@@ -1,6 +1,4 @@
 """
-storage/json_storage.py
-
 JSON file-based storage implementation.
 Saves each ScrapeResponse as an individual JSON file inside output/.
 

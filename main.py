@@ -1,6 +1,4 @@
 """
-main.py
-
 Entry point for the scraper.
 Wires together Scraper, Storage, and CLI argument handling.
 

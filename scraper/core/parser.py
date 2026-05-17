@@ -1,6 +1,4 @@
 """
-core/parser.py
-
 Parses raw HTML and extracts clean, structured content.
 Receives raw_html from the fetcher via ScrapeResponse and
 populates title, content, and links on that same response.

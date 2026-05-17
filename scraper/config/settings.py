@@ -1,6 +1,4 @@
 """
-config/settings.py
-
 Central configuration for the scraper.
 All constants, paths, and default values live here.
 No other file should hardcode these values.

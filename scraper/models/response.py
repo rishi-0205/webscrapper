@@ -1,6 +1,4 @@
 """
-models/response.py
-
 Defines the ScrapeResponse model — the output contract for the scraper.
 Every scrape operation returns one of these, whether it succeeded or failed.
 

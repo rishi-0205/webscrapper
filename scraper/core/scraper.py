@@ -1,6 +1,4 @@
 """
-core/scraper.py
-
 Orchestrates the full scrape pipeline:
     ScrapeRequest → Fetcher → Parser → ScrapeResponse
 

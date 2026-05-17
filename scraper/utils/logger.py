@@ -1,6 +1,4 @@
 """
-utils/logger.py
-
 Centralized logger for the entire scraper project.
 Every module imports get_logger() from here instead of
 configuring their own logging setup.

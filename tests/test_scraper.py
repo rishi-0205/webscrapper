@@ -1,6 +1,4 @@
 """
-tests/test_scraper.py
-
 Unit tests for scraper/core/scraper.py
 
 Tests cover:

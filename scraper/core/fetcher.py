@@ -1,6 +1,4 @@
 """
-core/fetcher.py
-
 Handles all HTTP communication for the scraper.
 Responsible for fetching raw HTML from URLs using either:
   - requests       → fast, lightweight, for static pages
